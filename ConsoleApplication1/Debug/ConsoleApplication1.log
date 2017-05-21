@@ -1,0 +1,15 @@
+﻿生成启动时间为 5/18/2017 12:13:48 PM。
+     1>项目“D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\personalFolder\vs2015\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\personalFolder\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\Debug\Kinect_Testing_v0.2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\Debug\Kinect_Testing_v0.2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\Debug\Kinect_Testing_v0.2.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Testing_Kinect.obj
+         ConsoleApplication1.vcxproj -> D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\Debug\Kinect_Testing_v0.2.exe
+     1>已完成生成项目“D:\MotionServerProject\Kinect_Testing_V0.1\Kinect_Testing_v0.2\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.27
