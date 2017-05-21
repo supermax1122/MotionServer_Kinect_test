@@ -1,0 +1,19 @@
+﻿Build started 5/22/2017 11:44:18 AM.
+     1>Project "D:\VS2015 Git\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\personalFolder\vs2015\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Main.cpp Testing_Kinect.cpp
+         Testing_Kinect.cpp
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\personalFolder\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2015 Git\x64\Debug\Kinect_Testing_v0.2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\VS2015 Git\x64\Debug\Kinect_Testing_v0.2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2015 Git\x64\Debug\Kinect_Testing_v0.2.lib" /MACHINE:X64 x64\Debug\Main.obj
+         x64\Debug\Testing_Kinect.obj
+     1>Testing_Kinect.obj : error LNK2019: unresolved external symbol __imp_NuiShutdown referenced in function "public: void __cdecl TestingKinect::shutdown(void)" (?shutdown@TestingKinect@@QEAAXXZ)
+     1>Testing_Kinect.obj : error LNK2019: unresolved external symbol __imp_NuiCreateSensorByIndex referenced in function "public: long __cdecl TestingKinect::FindKinectSensor(void)" (?FindKinectSensor@TestingKinect@@QEAAJXZ)
+     1>C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86\Kinect10.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>D:\VS2015 Git\x64\Debug\Kinect_Testing_v0.2.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "D:\VS2015 Git\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.85

@@ -4,6 +4,8 @@
 #ifndef TESTING_KINECT_H
 #define TESTING_KINECT_H
 
+#pragma comment(lib, "Kinect10.lib")
+
 #include <stdio.h>
 #include <Windows.h>
 #include <NuiApi.h>
@@ -24,10 +26,7 @@ public:
 		NUI_SKELETON_POSITION_INDEX jointFrom,
 		NUI_SKELETON_POSITION_INDEX jointTo);
 	void DrawSkeleton(const NUI_SKELETON_DATA &skeleton);
-	void shutdown();
-
-
-		
+	void shutdown();		
 };
 
 #endif
